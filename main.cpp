@@ -8,7 +8,7 @@ int main(int argc, char** argv) {
 	if (argc == 2 && argv[1] == std::string("-h")) {
 		std::cout << "argv[1] : src video file name" << std::endl;
 		std::cout << "argv[2] : dst video file name" << std::endl;
-		std::cout << "Note: need ffmpeg lig: " << std::endl;
+		std::cout << "Note: need to download 'openh264-1.8.0-win64.dll'" << std::endl;
 		return 0;
 	}
 	else if(argc == 3) {
